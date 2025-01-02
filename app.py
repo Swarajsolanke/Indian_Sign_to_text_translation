@@ -1,4 +1,4 @@
-import flask
+
 from flask import Flask, render_template, Response, request, jsonify
 import cv2
 import mediapipe as mp
