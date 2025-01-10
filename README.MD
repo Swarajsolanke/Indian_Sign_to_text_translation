@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 =======
 # Indian Sign Language (ISL) Text To Speech Translation in Real time 
 
