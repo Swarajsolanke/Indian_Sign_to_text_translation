@@ -27,7 +27,8 @@ Welcome to the **Indian Sign Language (ISL) Text To Speech Translation in Real t
 4. **Native Language Translation**:
    - Converts the English sentence to the user’s native language using a translation API.
 
-![ISL Detection Process](static\images\ISL.png)
+ 
+![alt text](static\images\ISL.png)
 
 ---
 
@@ -43,7 +44,7 @@ Welcome to the **Indian Sign Language (ISL) Text To Speech Translation in Real t
    - Retrieves ISL sign images for each word.
    - Displays the images sequentially to represent the sentence visually.
 
-![Speech to ISL Translation Process](static\images\speech_to_signimage_jpg-converter.jpg)
+![alt text](static\images\speech_to_signimage_jpg-converter.jpg)
 
 ---
 
@@ -79,7 +80,7 @@ Welcome to the **Indian Sign Language (ISL) Text To Speech Translation in Real t
 
 
 
-![Sample Dataset](static\images\image.png)
+![alt text](static\images\image.png)
 
 ---
 
