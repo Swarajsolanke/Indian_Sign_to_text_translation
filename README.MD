@@ -27,7 +27,7 @@ Welcome to the **Indian Sign Language (ISL) Text To Speech Translation in Real t
    - Converts the English sentence to the user’s native language using a translation API.
 
  
-![alt text](static\images\ISL.png)
+![alt text](ISL.png)
 
 ---
 
