@@ -180,7 +180,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 For any questions or feedback, please contact:
-- **Email**:swarajsolanke02@example.com
+- **Email**:swarajsolanke02@gmail.com
 - **GitHub**:(https://github.com/Swarajsolanke)
 ---
 
