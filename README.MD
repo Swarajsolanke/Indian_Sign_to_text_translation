@@ -1,14 +1,12 @@
-
 # Indian Sign Language (ISL) Text To Speech Translation in Real time 
 
 Welcome to the **Indian Sign Language (ISL) Text To Speech Translation in Real time**! This project bridges the gap between spoken and sign languages, enabling seamless communication for individuals with hearing or speech impairments. The system supports two primary functionalities:
 
 1. **ISL Detection and Translation**: Detects hand signs using **MediaPipe** and translates them into sentences in the user's native language.
-2. **Speech to ISL Translation**: Converts spoken language into ISL by displaying corresponding sign images from the dataset.
-
+2. **Speech to ISL Translation**:  Converts spoken language into ISL by displaying corresponding sign images from the dataset.
 ---
 
-## Key Features
+## Key Features:
 
 ### 1. **ISL Detection and Sentence Translation**
 - **Hand Sign Detection**: Uses **MediaPipe** to detect both one-handed and two-handed signs.
@@ -26,11 +24,9 @@ Welcome to the **Indian Sign Language (ISL) Text To Speech Translation in Real t
 4. **Native Language Translation**:
    - Converts the English sentence to the user’s native language using a translation API.
 
- 
 ![alt text](ISL.png)
 
 ---
-
 ### 2. **Speech to ISL Translation**
 - **Speech Recognition**: Converts user’s speech input into text.
 - **Text to ISL Conversion**: Maps words to ISL sign images using a pre-trained dataset.
@@ -43,10 +39,9 @@ Welcome to the **Indian Sign Language (ISL) Text To Speech Translation in Real t
    - Retrieves ISL sign images for each word.
    - Displays the images sequentially to represent the sentence visually.
 
-![alt text](static\images\speech_to_signimage_jpg-converter.jpg)
+![alt text](speech_to_sign.png)
 
 ---
-
 ## Technologies Used
 
 ### Backend
@@ -63,7 +58,6 @@ Welcome to the **Indian Sign Language (ISL) Text To Speech Translation in Real t
 - **Speech Recognition**: For converting speech to text.
 - **Translation API**: For translating English sentences into native languages.
 - **MediaPipe**: For hand tracking and pose detection.
-
 ---
 
 ## Dataset
@@ -78,11 +72,9 @@ Welcome to the **Indian Sign Language (ISL) Text To Speech Translation in Real t
 | 1-9       | Numbers      | Adaptive Thresholding |
 
 
-
-![alt text](static\images\image.png)
+![alt text](image.png)
 
 ---
-
 ## Installation
 1. Clone this repository:
    ```bash
@@ -96,7 +88,6 @@ Welcome to the **Indian Sign Language (ISL) Text To Speech Translation in Real t
    ```bash
    python app.py
    ```
-
 ---
 
 ## User Interface
@@ -109,17 +100,13 @@ Welcome to the **Indian Sign Language (ISL) Text To Speech Translation in Real t
 - **Translation**: Converts the sentence to the user’s native language.
 
 ![ISL Detection UI](images/isl_detection_ui.png)
-
 ### Speech to ISL
 - **Speech Input**: Allows the user to speak a sentence.
 - **ISL Image Display**: Sequentially displays ISL images for the spoken sentence.
-
 ![Speech to ISL UI](images/speech_to_isl_ui.png)
 
 ---
-
 ## Visual Representations
-
 ### Workflow Diagrams
 #### ISL Detection Workflow:
 ```mermaid
@@ -144,35 +131,28 @@ D --> E[Sequential Display of Images]
 ![Project Logo](images/colorful_logo.png)
 
 ---
-
 ## Future Enhancements
 - **Improved Accuracy**: Fine-tune the detection model for two-handed signs.
 - **Dynamic Word Suggestions**: Implement real-time word prediction.
 - **Offline Translation**: Enable translation without internet access.
-
 ---
-
 ## Contributions
 We welcome contributions! Please follow these steps:
 1. Fork the repository.
 2. Create a feature branch.
 3. Commit your changes.
 4. Create a pull request.
-
 ---
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
 ## Contact
 For any questions or feedback, please contact:
-- **Email**: your-email@example.com
-- **GitHub**: [YourGitHub](https://github.com/your-github)
-
+- **Email**: swarajsolanke02@example.com
+- **GitHub**: [YourGitHub](https://github.com/Swarajsolanke)
 ---
 
 Thank you for using the Indian Sign Language Detection and Translation Project! Together, let’s make communication inclusive and barrier-free.
 
->>>>>>> bd9c9560e4ba78b36719374b9e6bb563016255c4
