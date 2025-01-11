@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 # Indian Sign Language (ISL) Text To Speech Translation in Real time 
 
 Welcome to the **Indian Sign Language (ISL) Text To Speech Translation in Real time**! This project bridges the gap between spoken and sign languages, enabling seamless communication for individuals with hearing or speech impairments. The system supports two primary functionalities:
