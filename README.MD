@@ -6,13 +6,17 @@ Welcome to the **Indian Sign Language (ISL) Text To Speech Translation in Real t
 2. **Speech to ISL Translation**:  Converts spoken language into ISL by displaying corresponding sign images from the dataset.
 ---
 
-## Key Features:
 
+
+
+## Key Features:
 ### 1. **ISL Detection and Sentence Translation**
 - **Hand Sign Detection**: Uses **MediaPipe** to detect both one-handed and two-handed signs.
 - **Sentence Construction**: Converts detected characters into meaningful sentences.
 - **Native Language Translation**: Translates the constructed sentence into the user's chosen native language.
 - **Real-Time Feedback**: Displays the camera feed, detected letters, constructed sentences, and suggested words on a user-friendly GUI.
+
+
 
 #### Process Workflow:
 1. **Hand Tracking**: MediaPipe detects hand landmarks and extracts features.
@@ -99,11 +103,11 @@ Welcome to the **Indian Sign Language (ISL) Text To Speech Translation in Real t
 - **Constructed Sentence**: Shows the sentence being formed.
 - **Translation**: Converts the sentence to the user’s native language.
 
-![ISL Detection UI](images/isl_detection_ui.png)
+
 ### Speech to ISL
 - **Speech Input**: Allows the user to speak a sentence.
 - **ISL Image Display**: Sequentially displays ISL images for the spoken sentence.
-![Speech to ISL UI](images/speech_to_isl_ui.png)
+
 
 ---
 ## Visual Representations
@@ -126,10 +130,37 @@ B --> C[Word Extraction]
 C --> D[ISL Image Mapping]
 D --> E[Sequential Display of Images]
 ```
+# Website working:
 
-### Colorful Logos
-![Project Logo](images/colorful_logo.png)
+# 1.Landinge page:
+  this is the  Landinge page of our website wherein we provide the key feature of our website 
 
+
+![alt text](Landingpage.png)
+# 2.Home page:
+  This is the home page of the website. Once the user visit the websites he will find the get started button once he click on this direct to next page of the website. Where he will get the two option Indian sign to text and speech to sign. 
+
+  ![alt text](Home.png)
+
+# 3.Modules page:
+  This is second page of the website where he will get the two option Indian sign language to text and vice versa option. Once he will click on one of the button will direct to next page of the modules.
+   
+   ![alt text](optionpage.png)
+
+# 4.Indian Sign text to speech:
+
+   This is window of sign to text module where user is showing the sign image in real time that images is detected in real time in window .he will get the suggestion of word , provide three buttons for clear the text and providing the space in between the words . Once the sentence is created that can be hear by normal people. 
+ 
+ ![alt text](First_module.jpg)
+
+# 5.Speech To Indian Sign Language:
+
+   In this module user will provide the speech in real time using mic button .user can provide speech into different regional-native languages in real time that can be provide to model it will provide corresponding sign image in output window. 
+
+  ![alt text](Second_module.jpg)
+
+
+   
 ---
 ## Future Enhancements
 - **Improved Accuracy**: Fine-tune the detection model for two-handed signs.
@@ -143,16 +174,17 @@ We welcome contributions! Please follow these steps:
 3. Commit your changes.
 4. Create a pull request.
 ---
-
 ## License
 This project is licensed under the [MIT License](LICENSE).
-
 ---
+
 ## Contact
 For any questions or feedback, please contact:
-- **Email**: swarajsolanke02@example.com
-- **GitHub**: [YourGitHub](https://github.com/Swarajsolanke)
+- **Email**:swarajsolanke02@example.com
+- **GitHub**:(https://github.com/Swarajsolanke)
 ---
 
 Thank you for using the Indian Sign Language Detection and Translation Project! Together, let’s make communication inclusive and barrier-free.
+
+
 
